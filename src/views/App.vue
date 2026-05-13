@@ -14,5 +14,8 @@ function addTodo() {
     <input v-model="newTodo" placeholder="輸入代辦事項" />
     <button @click="addTodo">新增</button>
   </div>
+  <div class="p-10 text-2xl text-blue-500">
+    Tailwind OK！
+  </div>
   <router-view />
 </template>
